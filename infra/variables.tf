@@ -6,4 +6,5 @@ variable "pipe_bucket_prefix" {
 variable "pipe_region" {
   type = string
   description = "region to aws provider"
+  default     = "us-east-1"
 }
