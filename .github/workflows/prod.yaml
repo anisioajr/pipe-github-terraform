@@ -13,7 +13,7 @@ jobs:
     uses: ./.github/workflows/terraform.yaml
     with:
       environment: prd
-      aws-region: "us-east-2"
+      aws-region: "us-east-1"
       aws-state-s3-bucket: "terrastate-backend-pipe-github-terraform"
       aws-lock-table: "lock-table-pipe-github-terraform"
       aws-assume-role-arn: "arn:aws:iam::463470966929:role/func-pipe-github-terraform"
