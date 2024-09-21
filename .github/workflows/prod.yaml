@@ -2,7 +2,7 @@ name: "Pipeline PROD"
 
 on:
   push:
-    branches: [ prd ]
+    branches: [ prod ]
 
 permissions:
   id-token: write
